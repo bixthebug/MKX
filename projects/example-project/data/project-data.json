@@ -1,0 +1,18 @@
+{
+  "project": {
+    "name": "Example Project",
+    "type": "Template/Example",
+    "status": "Active",
+    "created": "2025-10-21"
+  },
+  "objectives": [
+    "Demonstrate project structure",
+    "Provide a template for new projects",
+    "Show best practices"
+  ],
+  "files": {
+    "documentation": ["README.md", "docs/notes.md"],
+    "data": ["data/project-data.json"]
+  },
+  "notes": "This is a sample project for demonstration purposes"
+}
