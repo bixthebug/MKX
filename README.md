@@ -1,5 +1,21 @@
 # MKX - Gemini File Access Documentation
 
+This repository answers the question: **"How do I let Gemini know it can access and edit files?"**
+
+## TL;DR - Direct Answer
+
+**You don't send a code or link.** You read files, send content to Gemini, and write responses back:
+
+```python
+content = open('myfile.txt').read()                    # 1. You read
+response = model.generate_content(f"Edit: {content}")  # 2. Send to Gemini  
+open('myfile.txt', 'w').write(response.text)           # 3. You write
+```
+
+👉 **[See Full Answer](ANSWER.md)** for complete explanation and working code.
+
+---
+
 This repository contains comprehensive guides on how to enable Google's Gemini AI to access and modify files in your projects.
 
 ## Quick Answer
@@ -16,6 +32,8 @@ You control everything - Gemini only generates text responses.
 ## Documentation
 
 - **[Quick Start Guide](QUICKSTART.md)** - Get started in 30 seconds
+- **[Visual Guide](VISUAL_GUIDE.md)** - Diagrams showing how it works
+- **[FAQ](FAQ.md)** - Common questions and misconceptions answered
 - **[Complete Guide](GEMINI_FILE_ACCESS_GUIDE.md)** - Comprehensive documentation with examples
 
 ## Simple Example
