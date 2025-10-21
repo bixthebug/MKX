@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "Sample Dataset",
+    "description": "Example data file for demonstration purposes",
+    "created": "2025-10-21",
+    "version": "1.0",
+    "author": "MKX System"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Documentation",
+      "description": "All documentation files and guides",
+      "file_count": 3
+    },
+    {
+      "id": 2,
+      "name": "Data",
+      "description": "Data files and datasets",
+      "file_count": 2
+    },
+    {
+      "id": 3,
+      "name": "Projects",
+      "description": "Project-specific resources",
+      "file_count": 0
+    }
+  ],
+  "statistics": {
+    "total_files": 5,
+    "total_directories": 6,
+    "last_updated": "2025-10-21T03:11:00Z"
+  }
+}

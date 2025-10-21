@@ -1,0 +1,61 @@
+{
+  "repository": {
+    "name": "MKX",
+    "full_name": "Mikki's Knowledge Exchange",
+    "description": "File Structure for Mikki - Optimized for AI Analysis",
+    "version": "1.0.0",
+    "created": "2025-10-21",
+    "purpose": "Organized repository for AI-accessible content management"
+  },
+  "structure": {
+    "directories": [
+      {
+        "name": "docs",
+        "purpose": "Documentation and guides",
+        "file_types": ["md", "txt", "pdf"]
+      },
+      {
+        "name": "data",
+        "purpose": "Data files and datasets",
+        "file_types": ["json", "csv", "xml", "txt"],
+        "subdirectories": ["raw", "processed", "archives"]
+      },
+      {
+        "name": "projects",
+        "purpose": "Project-specific files and resources",
+        "file_types": ["*"]
+      },
+      {
+        "name": "references",
+        "purpose": "Reference materials and external resources",
+        "file_types": ["md", "pdf", "txt"]
+      },
+      {
+        "name": "config",
+        "purpose": "Configuration files",
+        "file_types": ["json", "yaml", "yml", "ini", "conf"]
+      }
+    ]
+  },
+  "ai_optimization": {
+    "features": [
+      "Clear hierarchical structure",
+      "Comprehensive documentation",
+      "Consistent naming conventions",
+      "Metadata-rich content",
+      "Self-describing organization"
+    ],
+    "recommended_analysis": [
+      "Content categorization",
+      "Structure pattern recognition",
+      "Documentation completeness",
+      "Data relationship mapping"
+    ]
+  },
+  "conventions": {
+    "file_naming": "lowercase-with-hyphens",
+    "date_format": "YYYY-MM-DD",
+    "encoding": "UTF-8",
+    "line_endings": "LF"
+  }
+}
