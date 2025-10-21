@@ -31,10 +31,17 @@ You control everything - Gemini only generates text responses.
 
 ## Documentation
 
+- **[Direct Answer](ANSWER.md)** - Immediate answer to the main question
 - **[Quick Start Guide](QUICKSTART.md)** - Get started in 30 seconds
 - **[Visual Guide](VISUAL_GUIDE.md)** - Diagrams showing how it works
 - **[FAQ](FAQ.md)** - Common questions and misconceptions answered
 - **[Complete Guide](GEMINI_FILE_ACCESS_GUIDE.md)** - Comprehensive documentation with examples
+- **[Troubleshooting](TROUBLESHOOTING.md)** - Solutions to common issues
+
+## Examples
+
+- **[Python Example](example_file_access.py)** - Runnable Python code
+- **[JavaScript Example](example_file_access.js)** - Runnable Node.js code
 
 ## Simple Example
 
